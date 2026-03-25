@@ -127,3 +127,6 @@
   50% { transform: translateX(-100%); }
   100% { transform: translateX(0); }
 }
+body {
+  overflow-x: hidden;
+}

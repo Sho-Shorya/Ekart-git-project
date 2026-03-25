@@ -4,7 +4,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div>
+    <div className='w-screen overflow-hidden'>
       <Hero/>
       <Features/>
     </div>
