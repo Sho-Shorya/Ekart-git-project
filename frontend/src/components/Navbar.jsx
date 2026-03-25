@@ -32,11 +32,11 @@ const Navbar = () => {
   }
   return (
     <header className='lg:bg-emerald-50 fixed lg:w-screen z-20 border-b border-emerald-200 bg-emerald-50 w-screen fixed lg:h-[auto] h-[70px] flex items-center'>
-      <div className='lg:max-w-5xl lg:mx-auto lg:flex lg:flex:col lg:justify-between lg:items-center lg:py-3 flex flex-row w-[100%] justify-center items-center'>
+      <div className='lg:max-w-6xl lg:mx-auto lg:flex lg:flex:col lg:justify-between lg:items-center lg:py-3 flex flex-row w-[100%] justify-center items-center'>
         {/* Logo section */}
         <Link to='/'>
           <div className="flex gap-2 items-center " >
-            <img src='/Ekart1.png' className='lg:h-9 h-7 ' />
+            <img src='/Ekart1.png' className='lg:h-12 h-7 ' />
             <a href='/' className='text-3xl text-gray-700 '>Ekart</a>
           </div>
         </Link>

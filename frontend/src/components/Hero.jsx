@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className='bg-gradient-to-r from-blue-600 to-purple-600 text-white py-12'>
       <div className='max-w-5xl mx-auto py-[30px] px-3'>
-        <div className='grid grid-cols-2 gap-8 flex lg:justify-between lg:items-center'>
+        <div className='grid grid-cols-2 gap-8 flex lg:justify-between mt-15 lg:items-center'>
           <div>
             <h1 className='text-4xl md:text-6xl font-bold mb-4'>Latest Electronics at Best Prices</h1>
             <p className='text-xl mb-6 text-blue-100'>Discover cutting-edge technology with unbeatable deals on smartphones, laptops and more</p>
@@ -13,9 +13,11 @@ const Hero = () => {
               <Button varient="outline" className="cursor-pointer bg-white-0 border border-white-500 text-white hover:bg-white hover:text-blue-600">View deals</Button>
             </div>
           </div>
-          <div className='lg:relative'>
-            <img src='/grocery.png' alt="" className=' lg:w-[500px] lg:h-[500px] lg:hidden h-[250px] rounded-lg shadow-2xl' />
-            <img src='/Ekart-home1.png' alt="" className=' lg:w-[500px] lg:h-[500px] h-[250px] rounded-lg shadow-2xl' />
+          <div className="lg:relative lg:overflow-hidden lg:max-h-[450px]">
+            <div className="flex items-center lg:animate-[slide_6s_infinite]">
+              <img src="/led3.png" className="h-[350px] object-cover" />
+              <img src="/Ekart-home1.png" className="h-[450px]" />
+            </div>
           </div>
         </div>
       </div>
